@@ -1,5 +1,4 @@
 # BillsBurger
-An application to manage the process of selling burgers. It will help Bill to select types of burgers (Basic Burger, Healthy Burger and Deluxe Burger), add additional items to the burger and calculate the price.
 
 The purpose if this application is to help a fictitious company called Bill's Burger to manage their process of selling hamburgers.
 Our application will help Bill to select types of burgers, some of the additional items (additions) to be added to the burger and pricing.
