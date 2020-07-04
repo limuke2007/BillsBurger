@@ -20,11 +20,24 @@ public class Main {
 
 
         DeluxeBurger db = new DeluxeBurger();
-        db.addHamburgerAddition3("Should not do this", 50.53); //
-
+        db.addHamburgerAddition3("Should not do this", 50.53); // prevent other additions
         System.out.println("Total Deluxe Burger price is " + db.itemizeHamburger());
-
-
     }
-
 }
+
+// Basic hamburger  on a White roll with Chicken, price is 3.56
+// Added Lettuce for an extra 0.27
+// Added Tomato for an extra 0.75
+// Added Cheese for an extra 1.13
+// Total Burger price is 5.71
+// <-------------------------------------->
+// Healthy hamburger  on a Brown rye roll with Steak, price is 5.67
+// Added Egg for an extra 5.43
+// Added Lentils for an extra 3.41
+// Total Healthy Burger price is 14.51
+// <-------------------------------------->
+// Cannot add additional items to a deluxe burger
+// Deluxe hamburger  on a White roll with Chicken & Steak, price is 12.45
+// Added Chips for an extra 1.75
+// Added Drink for an extra 1.83
+// Total Deluxe Burger price is 16.03

@@ -2,7 +2,7 @@ package java_masterclass.OOPPart2.OOPMasterChallenge;
 
 public class DeluxeBurger extends Hamburger {
 
-// fields
+// fields                   // no extra items allows in this class, comes with "chips" and "drink" automatically
 
 // constructor
 
@@ -12,11 +12,9 @@ public class DeluxeBurger extends Hamburger {
         super.addHamburgerAddition2("Drink", 1.83);
     }
 
-
-
 // methods
 
-    @Override                                                               // prevent others additions
+    @Override                                                               // prevent other additions
     public void addHamburgerAddition1(String name, double price) {
         System.out.println("Cannot add additional items to a deluxe burger");
     }

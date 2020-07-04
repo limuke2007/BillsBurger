@@ -30,9 +30,7 @@ public class Hamburger {
         this.breadRollType = breadRollType;
     }
 
-
 // methods
-
 
     public String getName() {
         return name;
@@ -89,5 +87,4 @@ public class Hamburger {
 
         return hamburgerPrice;
     }
-
 }

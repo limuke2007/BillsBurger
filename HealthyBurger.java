@@ -10,12 +10,10 @@ public class HealthyBurger extends Hamburger {
     private String healthyExtra2Name;
     private double healthyExtra2Price;
 
-
 // constructor
 
     public HealthyBurger(String meat, double price) {
         super("Healthy", meat, price, "Brown rye");
-
     }
 
 // methods
